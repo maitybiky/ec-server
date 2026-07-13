@@ -7,7 +7,7 @@ export const HOMEPAGE_DEFAULTS = {
   titleLine2: 'Live Better.',
   subtitle: 'Everything you love',
   description:
-    'From tech to fashion — quality products with dynamic discounts that reward bigger carts.',
+    'From tech to fashion — quality products with limited discounts that reward bigger carts.',
   ctaText: 'View All Products',
   heroImage: 'https://loremflickr.com/900/700/headphones?lock=1001',
   cards: [
