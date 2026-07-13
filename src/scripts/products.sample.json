@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Classic Cotton T-Shirt",
+    "category": "Clothes",
+    "price": 499,
+    "description": "Soft 100% cotton tee in regular fit.",
+    "stock": 120
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "category": "Clothes",
+    "price": 1499,
+    "description": "Stretch denim, mid-rise, slim through the leg.",
+    "stock": 80
+  },
+  {
+    "name": "Hooded Sweatshirt",
+    "category": "Clothes",
+    "price": 999,
+    "description": "Fleece-lined hoodie with kangaroo pocket.",
+    "stock": 60
+  },
+  {
+    "name": "Running Shoes",
+    "category": "Clothes",
+    "price": 2499,
+    "description": "Lightweight mesh runners with cushioned sole.",
+    "stock": 45
+  },
+  {
+    "name": "Wireless Earbuds",
+    "category": "Tech",
+    "price": 1999,
+    "description": "Bluetooth 5.3, 24h battery with case, USB-C.",
+    "stock": 150
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "category": "Tech",
+    "price": 3499,
+    "description": "Hot-swappable switches, RGB, 87-key TKL layout.",
+    "stock": 40
+  },
+  {
+    "name": "27\" IPS Monitor",
+    "category": "Tech",
+    "price": 12999,
+    "description": "1440p 100Hz IPS panel with slim bezels.",
+    "stock": 25
+  },
+  {
+    "name": "USB-C Power Bank 20000mAh",
+    "category": "Tech",
+    "price": 1799,
+    "description": "20W fast charge, dual output, airline safe.",
+    "stock": 90
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home",
+    "price": 699,
+    "description": "1L vacuum-insulated, keeps drinks cold 24h.",
+    "stock": 200
+  },
+  {
+    "name": "Ceramic Coffee Mug Set",
+    "category": "Home",
+    "price": 899,
+    "description": "Set of 4 stoneware mugs, dishwasher safe.",
+    "stock": 75
+  },
+  {
+    "name": "Yoga Mat",
+    "category": "Sports",
+    "price": 1099,
+    "description": "6mm non-slip TPE mat with carry strap.",
+    "stock": 65
+  },
+  {
+    "name": "Adjustable Dumbbell Pair",
+    "category": "Sports",
+    "price": 5999,
+    "description": "2.5–24kg quick-select adjustable dumbbells.",
+    "stock": 20
+  }
+]
