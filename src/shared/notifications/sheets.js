@@ -26,17 +26,27 @@ export async function appendOrderToSheet(order, customerEmail) {
 
   const sheets = await getSheetsClient();
 
+  // One line per product inside the cell: name, category, qty × unit price = line total.
+  const productDetails = order.items
+    .map(
+      (i) =>
+        `${i.name} [${i.categoryName}] — ${i.quantity} × ₹${i.price} = ₹${i.lineTotal}`,
+    )
+    .join('\n');
+  const itemCount = order.items.reduce((s, i) => s + i.quantity, 0);
+
   const row = [
     order.orderNumber,
     new Date(order.createdAt).toISOString(),
     customerEmail,
-    order.items.map((i) => `${i.name} x${i.quantity}`).join('; '),
+    productDetails,
     order.discount.subtotal,
     order.discount.appliedRules.map((r) => `${r.name} ${r.percent}%`).join('; '),
     order.discount.appliedPercent,
     order.discount.discountAmount,
     order.discount.payable,
     order.status,
+    itemCount,
   ];
 
   await sheets.spreadsheets.values.append({
